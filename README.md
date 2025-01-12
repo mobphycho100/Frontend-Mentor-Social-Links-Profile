@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Here](https://github.com/mobphycho100/Frontend-Mentor-Social-links-profile)
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://mobphycho100.github.io/Frontend-Mentor-Social-Links-Profile/)
 
 ### Built with
 
