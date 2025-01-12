@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 0.5rem;
+    width: min(100%, 350px);
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0 0 40px 5px hsla(0, 0%, 100%, 0.319);
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        padding: 18px;
+    }
+}
+
+.profile{
+    border-radius: 50%;
+    width: 80px;
+    margin: 10px 0 25px;
+}
+
+.user-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+.description{
+    font-size: 13.5px;
+    margin: 25px 0;
+    color: hsl(0, 0%, 82%);
+}
+
+.social-links-container{
+    width: 100%;
+}
+
+.social-links{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-links li{
+    width: 100%;
+    background-color: hsl(0, 0%, 21%);
+    border-radius: 7px;
+    transition: all 0.2s ease-out;
+}
+
+.social-links li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.social-links li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    font-size: 11px;
+}
+
+.attribution a{
+    color: hsla(75, 100%, 50%, 0.684);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.attribution a:hover{
+    text-shadow: 0 0 10px hsla(0, 0%, 100%, 0.684);
+}
+
